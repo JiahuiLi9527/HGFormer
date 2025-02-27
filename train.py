@@ -112,11 +112,11 @@ if __name__ == '__main__':
     parser.add_argument('--trainsize', type=int,
                         default=352, help='training dataset size')
     parser.add_argument('--train_path', type=str,
-                        default='/DATA/home/zyw/LJH/PraNet/PraNet-master/data/TrainDataset', help='path to train dataset')
+                        default='', help='path to train dataset')
     parser.add_argument('--model', type=str,
-                        default='FreqNet-pvt')
+                        default='FreqNet')
     parser.add_argument('--save_path', type=str,
-                        default='/DATA/home/zyw/LJH/PVT_HFEA/checkpoints/11_5_')
+                        default='')
     parser.add_argument("--mgpu", type=str, default="false", choices=["true", "false"])
     opt = parser.parse_args()
     writer = SummaryWriter(opt.save_path +opt.model + "/tensorboard/")
