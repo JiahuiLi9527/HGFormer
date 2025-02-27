@@ -10,11 +10,11 @@ import matplotlib.pyplot as plt
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--testsize', type=int, default=352, help='testing size')
-parser.add_argument('--pth_path', type=str, default='/DATA/home/zyw/LJH/PVT_HFEA/checkpoints/11_6_MEGANet-Res2Net/MEGANet-199.pth')
+parser.add_argument('--pth_path', type=str, default='')
 
 for _data_name in ['CVC-300', 'CVC-ClinicDB', 'Kvasir', 'CVC-ColonDB', 'ETIS-LaribPolypDB']:
-    data_path = '/DATA/home/zyw/LJH/PraNet/PraNet-master/data/TestDataset/{}'.format(_data_name)
-    save_path = '/DATA/home/zyw/LJH/FreqNet/results/test/{}/'.format(_data_name)
+    data_path = '/data/TestDataset/{}'.format(_data_name)
+    save_path = '/results/test/{}/'.format(_data_name)
     opt = parser.parse_args()
     model = HFEANetModel()
     model.load_state_dict(torch.load(opt.pth_path))
