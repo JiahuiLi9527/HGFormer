@@ -10,8 +10,8 @@ Note that our model also supports low memory GPU, which means you can lower the 
 downloading testing dataset and move it into `./data/TestDataset/`, which can be found in this [download link (327.2MB)](https://drive.google.com/file/d/1Y2z7FD5p5y31vkZwQQomXFRB0HutHyao/view). It contains five sub-datsets: CVC-300 (60 test samples), CVC-ClinicDB (62 test samples), CVC-ColonDB (380 test samples), ETIS-LaribPolypDB (196 test samples), Kvasir (100 test samples).<br>
 downloading training dataset and move it into `./data/TrainDataset/`, which can be found in this [download link (399.5MB)](https://drive.google.com/file/d/1YiGHLw4iTvKdvbT6MgwO9zcCv8zJ_Bnb/view). It contains two sub-datasets: Kvasir-SEG (900 train samples) and CVC-ClinicDB (550 train samples).
 
-downloading pretrained weights and move it into ./checkpoint/, which can be found in this [download link](https://pan.baidu.com/s/13Pv8xEGNAM3KxJgT-mLwZw?pwd=u5rd).<br>
-downloading PVT-V2 weights and and move it into ./lib/, which can be found in this [download link](https://pan.baidu.com/s/12CoPRhzwKOfnjfg6saEZ0w?pwd=7i9u).
+downloading pretrained weights and move it into ./checkpoint/, which can be found in this [download link(134.9)](https://pan.baidu.com/s/13Pv8xEGNAM3KxJgT-mLwZw?pwd=u5rd).<br>
+downloading PVT-V2 weights and and move it into ./lib/, which can be found in this [download link(96.8)](https://pan.baidu.com/s/12CoPRhzwKOfnjfg6saEZ0w?pwd=7i9u).
 
 Say what the step will be
 
