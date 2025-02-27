@@ -61,7 +61,7 @@ class HFANet(nn.Module):
             nn.ReLU(inplace=True)
         )
         self.backbone = pvt_v2_b2()
-        path = '/DATA/home/zyw/LJH/LSSNet-main/LSSNet-main/pvt_v2_b2.pth'
+        path = ''
         save_model = torch.load(path)
         model_dict = self.backbone.state_dict()
         state_dict = {k: v for k, v in save_model.items() if k in model_dict.keys()}
