@@ -4,7 +4,6 @@ import torch
 import torch.nn.functional as F
 import torch.nn as nn
 
-# 定义 Sobel 卷积核
 def HFE_kernel(channels=1, cuda=True):
     kernel_x = torch.tensor([[1., 0., -1.],
                               [2., 0., -2.],
