@@ -4,7 +4,6 @@ Despite considerable progress in colon polyp segmentation,current models remain 
 SEG and ClinicDB, while demonstrating notable improvements on the more challenging ETIS dataset, with a 1.0% increase in mDice and a 1.6% gain in mIoU over existing methods. 
 
 
-### Proposed Baseline
 #### Training/Testing
 The training and testing experiments are conducted using PyTorch with a single NVIDIA 3090 with 24 GB Memory.<br>
 >Note that our model also supports low memory GPU, which means you can lower the batch size.<br>
